@@ -1,0 +1,12 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "func-names": ["error", "never"],
+    "indent": [2, 4, { "SwitchCase": 1 }],
+    "comma-dangle": "off",
+    "no-underscore-dangle": "off",
+    "space-before-function-paren": "off",
+    "eol-last": "off",
+    "import/first": ["error", "DISABLE-absoulte-first"]
+  }
+}
